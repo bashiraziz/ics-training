@@ -72,7 +72,7 @@ export default function Home() {
       <section className="lp-hero">
         <h1 className="lp-hero-title">Incurred Cost Submissions Training</h1>
         <p className="lp-hero-sub">
-          Master the annual incurred cost submission process — reconcile rates, satisfy DCAA, and protect your contracts — at your level.
+          Master the annual incurred cost submission process: reconcile rates, satisfy DCAA, and protect your contracts, at your level.
         </p>
         <div className="lp-hero-ctas">
           <Link className="button button--primary button--lg" to="/dashboard">
