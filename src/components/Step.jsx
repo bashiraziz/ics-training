@@ -1,18 +1,34 @@
 import React, { useState } from 'react';
 
+/**
+ * Collapsible step container used in practice modules.
+ * moduleId and stepId are used to persist step-completion state in localStorage.
+ */
 export default function Step({ moduleId, stepId, title, children }) {
   const [open, setOpen] = useState(false);
+
+  function handleReveal() {
+    setOpen(true);
+    try {
+      if (moduleId && stepId) {
+        localStorage.setItem(`ics-step-${moduleId}-${stepId}`, '1');
+      }
+    } catch (_) {
+      // SSR or private browsing — fail silently.
+    }
+  }
+
   return (
-    <div style={{ border: '1px solid #eee', padding: 12, borderRadius: 6, marginBottom: 12 }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <div className="step-card">
+      <div className="step-card-header">
         <strong>{title}</strong>
         {!open ? (
-          <button onClick={() => setOpen(true)}>Reveal</button>
+          <button aria-expanded={false} onClick={handleReveal}>Reveal</button>
         ) : (
-          <button onClick={() => setOpen(false)}>Hide</button>
+          <button aria-expanded={true} onClick={() => setOpen(false)}>Hide</button>
         )}
       </div>
-      {open && <div style={{ marginTop: 12 }}>{children}</div>}
+      {open && <div className="step-card-body">{children}</div>}
     </div>
   );
 }

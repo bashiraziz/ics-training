@@ -4,6 +4,7 @@ module.exports = {
   moduleNameMapper: {
     '@docusaurus/Link': '<rootDir>/src/__mocks__/@docusaurus/Link.jsx',
     '@docusaurus/useDocusaurusContext': '<rootDir>/src/__mocks__/@docusaurus/useDocusaurusContext.js',
+    '@docusaurus/router': '<rootDir>/src/__mocks__/@docusaurus/router.js',
     '@theme/Layout': '<rootDir>/src/__mocks__/@theme/Layout.jsx',
     '\\.(css|scss)$': '<rootDir>/src/__mocks__/fileMock.js',
   },

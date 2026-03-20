@@ -2,6 +2,8 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Dashboard from '../pages/dashboard';
 
+beforeEach(() => localStorage.clear());
+
 describe('Dashboard page', () => {
   it('renders inside the Layout wrapper', () => {
     render(<Dashboard />);
@@ -90,6 +92,24 @@ describe('Dashboard page', () => {
     expect(startLink).toHaveAttribute('href', '/beginner/training/module-1');
   });
 
+  it('does not show visited badge when no modules have been visited', () => {
+    render(<Dashboard />);
+    expect(screen.queryByText('✓ Visited')).not.toBeInTheDocument();
+  });
+
+  it('shows a visited badge for a module marked in localStorage', () => {
+    localStorage.setItem('ics-visited-beginner-module1', '1');
+    render(<Dashboard />);
+    expect(screen.getByText('✓ Visited')).toBeInTheDocument();
+  });
+
+  it('shows multiple visited badges when multiple modules are marked', () => {
+    localStorage.setItem('ics-visited-beginner-module1', '1');
+    localStorage.setItem('ics-visited-beginner-module2', '1');
+    render(<Dashboard />);
+    expect(screen.getAllByText('✓ Visited')).toHaveLength(2);
+  });
+
   it('clicking Intermediate switches to intermediate modules', () => {
     render(<Dashboard />);
     fireEvent.click(screen.getByText('Intermediate'));
@@ -141,5 +161,15 @@ describe('Dashboard page', () => {
     fireEvent.click(screen.getByText('Advanced'));
     const trainingLinks = screen.getAllByText('Training').map(el => el.closest('a'));
     expect(trainingLinks[0]).toHaveAttribute('href', '/advanced/training/module-1');
+  });
+
+  it('visited badge only shows for the active level', () => {
+    localStorage.setItem('ics-visited-intermediate-module1', '1');
+    render(<Dashboard />);
+    // On the beginner tab, the intermediate visited entry should not show
+    expect(screen.queryByText('✓ Visited')).not.toBeInTheDocument();
+    // Switch to intermediate — badge appears
+    fireEvent.click(screen.getByText('Intermediate'));
+    expect(screen.getByText('✓ Visited')).toBeInTheDocument();
   });
 });

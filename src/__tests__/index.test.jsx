@@ -80,9 +80,14 @@ describe('Home page', () => {
     expect(screen.getByText('What Is an Incurred Cost Submission?')).toBeInTheDocument();
   });
 
-  it('renders the beginner level description', () => {
+  it('renders the beginner module description from modules.json', () => {
     render(<Home />);
-    expect(screen.getByText(/New to incurred cost submissions\? Start here/)).toBeInTheDocument();
+    expect(screen.getByText(/Get a plain-English overview of what an Incurred Cost Submission is/)).toBeInTheDocument();
+  });
+
+  it('renders the beginner level description from modules.json', () => {
+    render(<Home />);
+    expect(screen.getByText(/Covers what ICS is, who must file/)).toBeInTheDocument();
   });
 
   it('renders the Start Beginner Module 1 link', () => {

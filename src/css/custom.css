@@ -12,7 +12,87 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-.step-card { margin-bottom: 12px; }
+/* ── Step component ───────────────────────────────────────── */
+
+.step-card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: var(--ifm-background-surface-color);
+}
+
+.step-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-card-body {
+  margin-top: 12px;
+}
+
+/* ── Question component ───────────────────────────────────── */
+
+.question-block {
+  margin-top: 8px;
+}
+
+.question-btn {
+  margin-top: 8px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-surface-color);
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--ifm-font-color-base);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.question-btn:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.question-answer {
+  margin-top: 8px;
+  background: var(--ifm-color-emphasis-100);
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-left: 3px solid var(--ifm-color-primary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ── ModuleProgress ───────────────────────────────────────── */
+
+.mp-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--ifm-color-primary-lighter);
+  background: #edf3f5;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+}
+
+.mp-label {
+  color: var(--ifm-color-primary-dark);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.mp-badge {
+  background: var(--ifm-color-primary);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
 
 /* ── Flashcards ───────────────────────────────────────────── */
 
@@ -140,6 +220,80 @@ body {
   font-size: 0.72rem;
   opacity: 0.55;
   margin-top: auto;
+}
+
+/* ── Flashcard grade buttons ──────────────────────────────── */
+
+.fc-grade {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.fc-grade-btn {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.fc-grade-btn:hover {
+  opacity: 0.85;
+}
+
+.fc-grade-known {
+  background: #22863a;
+  color: #fff;
+}
+
+.fc-grade-again {
+  background: #d96e0a;
+  color: #fff;
+}
+
+/* ── Flashcard completion screen ─────────────────────────── */
+
+.fc-complete {
+  text-align: center;
+  padding: 48px 24px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+}
+
+.fc-complete-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.fc-complete-score {
+  font-size: 1rem;
+  margin-bottom: 24px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.fc-grade-known-count {
+  color: #22863a;
+  font-weight: 700;
+}
+
+.fc-grade-again-count {
+  color: #d96e0a;
+  font-weight: 700;
+}
+
+.fc-complete .fc-btn {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  margin: 8px auto 0;
+  padding: 10px 16px;
+  text-align: center;
 }
 
 /* Nav */
@@ -518,4 +672,62 @@ body {
   color: var(--ifm-color-emphasis-700);
   margin-bottom: 24px;
   line-height: 1.5;
+}
+
+/* ── Dashboard visited badge ──────────────────────────────── */
+
+.db-visited-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #22863a;
+  background: #e6f4ea;
+  padding: 2px 8px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+/* ── Print styles ─────────────────────────────────────────── */
+
+@media print {
+  .navbar,
+  .theme-doc-sidebar-container,
+  .pagination-nav,
+  .fc-nav,
+  .fc-toolbar,
+  .fc-grade,
+  .fc-progress,
+  .step-card button,
+  .question-btn,
+  .lp-hero-ctas,
+  .db-module-links {
+    display: none !important;
+  }
+
+  .fc-card {
+    height: auto;
+    perspective: none;
+    cursor: default;
+  }
+
+  .fc-inner {
+    transform: none !important;
+    transform-style: flat;
+  }
+
+  .fc-back {
+    transform: none !important;
+    backface-visibility: visible;
+    position: relative;
+    border-top: 1px solid #ccc;
+    margin-top: 8px;
+  }
+
+  .step-card-body,
+  .question-answer {
+    display: block !important;
+  }
+
+  body {
+    font-size: 11pt;
+  }
 }

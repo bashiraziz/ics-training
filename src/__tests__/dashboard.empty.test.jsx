@@ -1,22 +1,22 @@
 /**
- * Covers the `|| []` fallback branch in dashboard.js (line 27):
- *   const modules = modulesData[activeLevel] || [];
- * Triggered when the JSON has no entry for the active level.
+ * Covers the `|| []` fallback branch in dashboard.js:
+ *   const modules = levelData?.modules || [];
+ * Triggered when LEVELS is empty (no matching level found).
  */
 
-jest.mock('../data/modules.json', () => ({}));
+jest.mock('../data/levels', () => ({ LEVELS: [] }));
 
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Dashboard from '../pages/dashboard';
 
-describe('Dashboard page — empty modules fallback', () => {
-  it('renders without crashing when modulesData has no entries', () => {
+describe('Dashboard page — empty levels fallback', () => {
+  it('renders without crashing when LEVELS is empty', () => {
     render(<Dashboard />);
     expect(screen.getByText('Training Dashboard')).toBeInTheDocument();
   });
 
-  it('renders zero module rows when level data is missing', () => {
+  it('renders zero module rows when LEVELS is empty', () => {
     render(<Dashboard />);
     expect(screen.queryAllByText(/^Module \d+$/)).toHaveLength(0);
   });
