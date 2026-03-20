@@ -1,0 +1,25 @@
+{
+  "id": "advanced/training/module-7",
+  "title": "Advanced Module 7 - ICS in M&A and Novation Scenarios",
+  "description": "Why M&A Complicates ICS",
+  "source": "@site/docs/advanced/training/module-7.md",
+  "sourceDirName": "advanced/training",
+  "slug": "/advanced/training/module-7",
+  "permalink": "/advanced/training/module-7",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 7 - ICS in M&A and Novation Scenarios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 6 - Statute of Limitations and Final Decisions",
+    "permalink": "/advanced/training/module-6"
+  },
+  "next": {
+    "title": "Advanced Module 8 - Advanced Case Study: Apex Federal Systems",
+    "permalink": "/advanced/training/module-8"
+  }
+}

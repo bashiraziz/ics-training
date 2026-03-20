@@ -1,0 +1,25 @@
+{
+  "id": "advanced/training/module-8",
+  "title": "Advanced Module 8 - Advanced Case Study: Apex Federal Systems",
+  "description": "Company Background",
+  "source": "@site/docs/advanced/training/module-8.md",
+  "sourceDirName": "advanced/training",
+  "slug": "/advanced/training/module-8",
+  "permalink": "/advanced/training/module-8",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 8 - Advanced Case Study: Apex Federal Systems"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 7 - ICS in M&A and Novation Scenarios",
+    "permalink": "/advanced/training/module-7"
+  },
+  "next": {
+    "title": "Advanced Module 1 Flashcards: Multi-Segment ICS Filings",
+    "permalink": "/advanced/flashcards/module-1"
+  }
+}

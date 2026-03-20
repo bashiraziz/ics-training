@@ -1,0 +1,25 @@
+{
+  "id": "advanced/training/module-3",
+  "title": "Advanced Module 3 - Quick-Close vs. Full ICS",
+  "description": "Two Paths to Final Rates",
+  "source": "@site/docs/advanced/training/module-3.md",
+  "sourceDirName": "advanced/training",
+  "slug": "/advanced/training/module-3",
+  "permalink": "/advanced/training/module-3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 3 - Quick-Close vs. Full ICS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 2 - CAS Disclosure Statement Alignment",
+    "permalink": "/advanced/training/module-2"
+  },
+  "next": {
+    "title": "Advanced Module 4 - DCAA Audit Process End-to-End",
+    "permalink": "/advanced/training/module-4"
+  }
+}

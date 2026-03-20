@@ -1,0 +1,25 @@
+{
+  "id": "advanced/practice/module-5",
+  "title": "Advanced Module 5 Practice: Responding to DCAA Findings",
+  "description": "Vector Analytics received a draft audit report for Fiscal Year 2 with three findings:",
+  "source": "@site/docs/advanced/practice/module-5.md",
+  "sourceDirName": "advanced/practice",
+  "slug": "/advanced/practice/module-5",
+  "permalink": "/advanced/practice/module-5",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 5 Practice: Responding to DCAA Findings"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 4 Practice: DCAA Audit Process End-to-End",
+    "permalink": "/advanced/practice/module-4"
+  },
+  "next": {
+    "title": "Advanced Module 6 Practice: Statute of Limitations and Final Decisions",
+    "permalink": "/advanced/practice/module-6"
+  }
+}

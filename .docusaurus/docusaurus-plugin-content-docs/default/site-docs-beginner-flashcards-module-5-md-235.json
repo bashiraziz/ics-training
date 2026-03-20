@@ -1,0 +1,25 @@
+{
+  "id": "beginner/flashcards/module-5",
+  "title": "Beginner Module 5 Flashcards: Direct vs. Indirect Costs in ICS",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/beginner/flashcards/module-5.md",
+  "sourceDirName": "beginner/flashcards",
+  "slug": "/beginner/flashcards/module-5",
+  "permalink": "/beginner/flashcards/module-5",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 5 Flashcards: Direct vs. Indirect Costs in ICS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 4 Flashcards: The Six Core Schedules",
+    "permalink": "/beginner/flashcards/module-4"
+  },
+  "next": {
+    "title": "Beginner Module 6 Flashcards: Reconciling Claimed vs. Billed Costs",
+    "permalink": "/beginner/flashcards/module-6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/practice/module-6",
+  "title": "Intermediate Module 6 Practice: Unallowable Cost Identification in ICS",
+  "description": "Vantage Defense LLC is preparing its ICS and has asked you to review its Overhead pool accounts. The following transactions were booked to Overhead during the year:",
+  "source": "@site/docs/intermediate/practice/module-6.md",
+  "sourceDirName": "intermediate/practice",
+  "slug": "/intermediate/practice/module-6",
+  "permalink": "/intermediate/practice/module-6",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 6 Practice: Unallowable Cost Identification in ICS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 5 Practice: Rate Variances and Adjustments",
+    "permalink": "/intermediate/practice/module-5"
+  },
+  "next": {
+    "title": "Intermediate Module 7 Practice: Common ICS Deficiencies",
+    "permalink": "/intermediate/practice/module-7"
+  }
+}

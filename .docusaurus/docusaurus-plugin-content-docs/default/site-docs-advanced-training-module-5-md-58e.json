@@ -1,0 +1,25 @@
+{
+  "id": "advanced/training/module-5",
+  "title": "Advanced Module 5 - Responding to DCAA Findings",
+  "description": "What Is a DCAA Finding?",
+  "source": "@site/docs/advanced/training/module-5.md",
+  "sourceDirName": "advanced/training",
+  "slug": "/advanced/training/module-5",
+  "permalink": "/advanced/training/module-5",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 5 - Responding to DCAA Findings"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 4 - DCAA Audit Process End-to-End",
+    "permalink": "/advanced/training/module-4"
+  },
+  "next": {
+    "title": "Advanced Module 6 - Statute of Limitations and Final Decisions",
+    "permalink": "/advanced/training/module-6"
+  }
+}

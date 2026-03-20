@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/practice/module-8",
+  "title": "Intermediate Module 8 Practice: Intermediate Case Study",
+  "description": "Use the Meridian Defense Consulting case study data to work through the rate computation from scratch. Meridian's year-end data (before unallowable cost adjustments):",
+  "source": "@site/docs/intermediate/practice/module-8.md",
+  "sourceDirName": "intermediate/practice",
+  "slug": "/intermediate/practice/module-8",
+  "permalink": "/intermediate/practice/module-8",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 8 Practice: Intermediate Case Study"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 7 Practice: Common ICS Deficiencies",
+    "permalink": "/intermediate/practice/module-7"
+  },
+  "next": {
+    "title": "Advanced Module 1 - Multi-Segment ICS Filings",
+    "permalink": "/advanced/training/module-1"
+  }
+}

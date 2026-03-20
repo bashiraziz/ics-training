@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/flashcards/module-3",
+  "title": "Intermediate Module 3 Flashcards: Schedule B",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/intermediate/flashcards/module-3.md",
+  "sourceDirName": "intermediate/flashcards",
+  "slug": "/intermediate/flashcards/module-3",
+  "permalink": "/intermediate/flashcards/module-3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 3 Flashcards: Schedule B"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 2 Flashcards: Schedule A",
+    "permalink": "/intermediate/flashcards/module-2"
+  },
+  "next": {
+    "title": "Intermediate Module 4 Flashcards: Schedules C–H",
+    "permalink": "/intermediate/flashcards/module-4"
+  }
+}

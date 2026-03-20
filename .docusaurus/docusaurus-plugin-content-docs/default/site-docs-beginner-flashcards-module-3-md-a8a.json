@@ -1,0 +1,25 @@
+{
+  "id": "beginner/flashcards/module-3",
+  "title": "Beginner Module 3 Flashcards: Provisional vs. Final Rates",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/beginner/flashcards/module-3.md",
+  "sourceDirName": "beginner/flashcards",
+  "slug": "/beginner/flashcards/module-3",
+  "permalink": "/beginner/flashcards/module-3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 3 Flashcards: Provisional vs. Final Rates"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 2 Flashcards: Who Must File and When",
+    "permalink": "/beginner/flashcards/module-2"
+  },
+  "next": {
+    "title": "Beginner Module 4 Flashcards: The Six Core Schedules",
+    "permalink": "/beginner/flashcards/module-4"
+  }
+}

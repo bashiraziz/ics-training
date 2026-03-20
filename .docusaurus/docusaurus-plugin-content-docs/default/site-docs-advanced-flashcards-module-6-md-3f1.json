@@ -1,0 +1,25 @@
+{
+  "id": "advanced/flashcards/module-6",
+  "title": "Advanced Module 6 Flashcards: Statute of Limitations and Final Decisions",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/advanced/flashcards/module-6.md",
+  "sourceDirName": "advanced/flashcards",
+  "slug": "/advanced/flashcards/module-6",
+  "permalink": "/advanced/flashcards/module-6",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 6 Flashcards: Statute of Limitations and Final Decisions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 5 Flashcards: Responding to DCAA Findings",
+    "permalink": "/advanced/flashcards/module-5"
+  },
+  "next": {
+    "title": "Advanced Module 7 Flashcards: ICS in M&A and Novation Scenarios",
+    "permalink": "/advanced/flashcards/module-7"
+  }
+}

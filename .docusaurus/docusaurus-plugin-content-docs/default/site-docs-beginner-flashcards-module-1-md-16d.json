@@ -1,0 +1,25 @@
+{
+  "id": "beginner/flashcards/module-1",
+  "title": "Beginner Module 1 Flashcards: What Is an Incurred Cost Submission?",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/beginner/flashcards/module-1.md",
+  "sourceDirName": "beginner/flashcards",
+  "slug": "/beginner/flashcards/module-1",
+  "permalink": "/beginner/flashcards/module-1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 1 Flashcards: What Is an Incurred Cost Submission?"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 8 - Beginner End-to-End Scenario",
+    "permalink": "/beginner/training/module-8"
+  },
+  "next": {
+    "title": "Beginner Module 2 Flashcards: Who Must File and When",
+    "permalink": "/beginner/flashcards/module-2"
+  }
+}

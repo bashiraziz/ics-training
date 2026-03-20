@@ -1,0 +1,25 @@
+{
+  "id": "advanced/flashcards/module-8",
+  "title": "Advanced Module 8 Flashcards: Advanced Case Study",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/advanced/flashcards/module-8.md",
+  "sourceDirName": "advanced/flashcards",
+  "slug": "/advanced/flashcards/module-8",
+  "permalink": "/advanced/flashcards/module-8",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 8 Flashcards: Advanced Case Study"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 7 Flashcards: ICS in M&A and Novation Scenarios",
+    "permalink": "/advanced/flashcards/module-7"
+  },
+  "next": {
+    "title": "Advanced Module 1 Practice: Multi-Segment ICS Filings",
+    "permalink": "/advanced/practice/module-1"
+  }
+}

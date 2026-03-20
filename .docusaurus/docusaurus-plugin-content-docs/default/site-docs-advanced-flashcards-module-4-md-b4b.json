@@ -1,0 +1,25 @@
+{
+  "id": "advanced/flashcards/module-4",
+  "title": "Advanced Module 4 Flashcards: DCAA Audit Process End-to-End",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/advanced/flashcards/module-4.md",
+  "sourceDirName": "advanced/flashcards",
+  "slug": "/advanced/flashcards/module-4",
+  "permalink": "/advanced/flashcards/module-4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 4 Flashcards: DCAA Audit Process End-to-End"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 3 Flashcards: Quick-Close vs. Full ICS",
+    "permalink": "/advanced/flashcards/module-3"
+  },
+  "next": {
+    "title": "Advanced Module 5 Flashcards: Responding to DCAA Findings",
+    "permalink": "/advanced/flashcards/module-5"
+  }
+}

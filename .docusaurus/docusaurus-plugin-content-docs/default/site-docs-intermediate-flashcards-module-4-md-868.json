@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/flashcards/module-4",
+  "title": "Intermediate Module 4 Flashcards: Schedules C–H",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/intermediate/flashcards/module-4.md",
+  "sourceDirName": "intermediate/flashcards",
+  "slug": "/intermediate/flashcards/module-4",
+  "permalink": "/intermediate/flashcards/module-4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 4 Flashcards: Schedules C–H"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 3 Flashcards: Schedule B",
+    "permalink": "/intermediate/flashcards/module-3"
+  },
+  "next": {
+    "title": "Intermediate Module 5 Flashcards: Rate Variances and Adjustments",
+    "permalink": "/intermediate/flashcards/module-5"
+  }
+}

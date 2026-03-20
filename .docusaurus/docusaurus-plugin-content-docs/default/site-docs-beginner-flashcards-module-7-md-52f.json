@@ -1,0 +1,25 @@
+{
+  "id": "beginner/flashcards/module-7",
+  "title": "Beginner Module 7 Flashcards: DCAA and the ICS",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/beginner/flashcards/module-7.md",
+  "sourceDirName": "beginner/flashcards",
+  "slug": "/beginner/flashcards/module-7",
+  "permalink": "/beginner/flashcards/module-7",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 7 Flashcards: DCAA and the ICS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 6 Flashcards: Reconciling Claimed vs. Billed Costs",
+    "permalink": "/beginner/flashcards/module-6"
+  },
+  "next": {
+    "title": "Beginner Module 8 Flashcards: Beginner End-to-End Scenario",
+    "permalink": "/beginner/flashcards/module-8"
+  }
+}

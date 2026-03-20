@@ -1,0 +1,25 @@
+{
+  "id": "beginner/practice/module-5",
+  "title": "Beginner Module 5 Practice: Direct vs. Indirect Costs in ICS",
+  "description": "Orion Federal Services has the following costs for the fiscal year. Classify each as direct or indirect, identify which indirect pool it belongs to (if indirect), and note whether any allowability issues exist.",
+  "source": "@site/docs/beginner/practice/module-5.md",
+  "sourceDirName": "beginner/practice",
+  "slug": "/beginner/practice/module-5",
+  "permalink": "/beginner/practice/module-5",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 5 Practice: Direct vs. Indirect Costs in ICS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 4 Practice: The Six Core Schedules",
+    "permalink": "/beginner/practice/module-4"
+  },
+  "next": {
+    "title": "Beginner Module 6 Practice: Reconciling Claimed vs. Billed Costs",
+    "permalink": "/beginner/practice/module-6"
+  }
+}

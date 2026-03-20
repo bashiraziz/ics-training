@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/flashcards/module-2",
+  "title": "Intermediate Module 2 Flashcards: Schedule A",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/intermediate/flashcards/module-2.md",
+  "sourceDirName": "intermediate/flashcards",
+  "slug": "/intermediate/flashcards/module-2",
+  "permalink": "/intermediate/flashcards/module-2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 2 Flashcards: Schedule A"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 1 Flashcards: ICS Regulatory Foundation",
+    "permalink": "/intermediate/flashcards/module-1"
+  },
+  "next": {
+    "title": "Intermediate Module 3 Flashcards: Schedule B",
+    "permalink": "/intermediate/flashcards/module-3"
+  }
+}

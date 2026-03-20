@@ -1,0 +1,25 @@
+{
+  "id": "beginner/training/module-8",
+  "title": "Beginner Module 8 - Beginner End-to-End Scenario",
+  "description": "Meet NovaTech Solutions",
+  "source": "@site/docs/beginner/training/module-8.md",
+  "sourceDirName": "beginner/training",
+  "slug": "/beginner/training/module-8",
+  "permalink": "/beginner/training/module-8",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 8 - Beginner End-to-End Scenario"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 7 - DCAA and the ICS",
+    "permalink": "/beginner/training/module-7"
+  },
+  "next": {
+    "title": "Beginner Module 1 Flashcards: What Is an Incurred Cost Submission?",
+    "permalink": "/beginner/flashcards/module-1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "beginner/flashcards/module-4",
+  "title": "Beginner Module 4 Flashcards: The Six Core Schedules",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/beginner/flashcards/module-4.md",
+  "sourceDirName": "beginner/flashcards",
+  "slug": "/beginner/flashcards/module-4",
+  "permalink": "/beginner/flashcards/module-4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Beginner Module 4 Flashcards: The Six Core Schedules"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Beginner Module 3 Flashcards: Provisional vs. Final Rates",
+    "permalink": "/beginner/flashcards/module-3"
+  },
+  "next": {
+    "title": "Beginner Module 5 Flashcards: Direct vs. Indirect Costs in ICS",
+    "permalink": "/beginner/flashcards/module-5"
+  }
+}

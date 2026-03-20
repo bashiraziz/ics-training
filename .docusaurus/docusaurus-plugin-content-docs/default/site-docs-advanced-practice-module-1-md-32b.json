@@ -1,0 +1,25 @@
+{
+  "id": "advanced/practice/module-1",
+  "title": "Advanced Module 1 Practice: Multi-Segment ICS Filings",
+  "description": "Meridian Defense Group has two segments and a home office. Home office costs for the fiscal year total $4,800,000. The three-factor allocation data is as follows:",
+  "source": "@site/docs/advanced/practice/module-1.md",
+  "sourceDirName": "advanced/practice",
+  "slug": "/advanced/practice/module-1",
+  "permalink": "/advanced/practice/module-1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 1 Practice: Multi-Segment ICS Filings"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 8 Flashcards: Advanced Case Study",
+    "permalink": "/advanced/flashcards/module-8"
+  },
+  "next": {
+    "title": "Advanced Module 2 Practice: CAS Disclosure Statement Alignment",
+    "permalink": "/advanced/practice/module-2"
+  }
+}

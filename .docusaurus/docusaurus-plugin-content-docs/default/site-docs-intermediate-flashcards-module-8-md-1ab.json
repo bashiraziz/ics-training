@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/flashcards/module-8",
+  "title": "Intermediate Module 8 Flashcards: Intermediate Case Study",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/intermediate/flashcards/module-8.md",
+  "sourceDirName": "intermediate/flashcards",
+  "slug": "/intermediate/flashcards/module-8",
+  "permalink": "/intermediate/flashcards/module-8",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 8 Flashcards: Intermediate Case Study"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 7 Flashcards: Common ICS Deficiencies",
+    "permalink": "/intermediate/flashcards/module-7"
+  },
+  "next": {
+    "title": "Intermediate Module 1 Practice: ICS Regulatory Foundation",
+    "permalink": "/intermediate/practice/module-1"
+  }
+}

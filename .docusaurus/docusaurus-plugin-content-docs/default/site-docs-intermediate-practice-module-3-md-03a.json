@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/practice/module-3",
+  "title": "Intermediate Module 3 Practice: Schedule B",
+  "description": "Cascade Systems has the following costs booked to its G&A pool for the fiscal year:",
+  "source": "@site/docs/intermediate/practice/module-3.md",
+  "sourceDirName": "intermediate/practice",
+  "slug": "/intermediate/practice/module-3",
+  "permalink": "/intermediate/practice/module-3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 3 Practice: Schedule B"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 2 Practice: Schedule A",
+    "permalink": "/intermediate/practice/module-2"
+  },
+  "next": {
+    "title": "Intermediate Module 4 Practice: Schedules C–H",
+    "permalink": "/intermediate/practice/module-4"
+  }
+}

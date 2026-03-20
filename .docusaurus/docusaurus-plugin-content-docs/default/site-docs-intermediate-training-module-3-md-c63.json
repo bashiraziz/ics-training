@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/training/module-3",
+  "title": "Intermediate Module 3 - Schedule Deep Dive: Schedule B",
+  "description": "What Schedule B Is",
+  "source": "@site/docs/intermediate/training/module-3.md",
+  "sourceDirName": "intermediate/training",
+  "slug": "/intermediate/training/module-3",
+  "permalink": "/intermediate/training/module-3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 3 - Schedule Deep Dive: Schedule B"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 2 - Schedule Deep Dive: Schedule A",
+    "permalink": "/intermediate/training/module-2"
+  },
+  "next": {
+    "title": "Intermediate Module 4 - Schedule Deep Dive: Schedules C–H",
+    "permalink": "/intermediate/training/module-4"
+  }
+}

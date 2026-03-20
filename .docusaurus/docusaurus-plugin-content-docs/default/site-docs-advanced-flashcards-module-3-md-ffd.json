@@ -1,0 +1,25 @@
+{
+  "id": "advanced/flashcards/module-3",
+  "title": "Advanced Module 3 Flashcards: Quick-Close vs. Full ICS",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/advanced/flashcards/module-3.md",
+  "sourceDirName": "advanced/flashcards",
+  "slug": "/advanced/flashcards/module-3",
+  "permalink": "/advanced/flashcards/module-3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 3 Flashcards: Quick-Close vs. Full ICS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 2 Flashcards: CAS Disclosure Statement Alignment",
+    "permalink": "/advanced/flashcards/module-2"
+  },
+  "next": {
+    "title": "Advanced Module 4 Flashcards: DCAA Audit Process End-to-End",
+    "permalink": "/advanced/flashcards/module-4"
+  }
+}

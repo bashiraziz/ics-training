@@ -1,0 +1,25 @@
+{
+  "id": "advanced/flashcards/module-2",
+  "title": "Advanced Module 2 Flashcards: CAS Disclosure Statement Alignment",
+  "description": "<FlashcardDeck cards={[",
+  "source": "@site/docs/advanced/flashcards/module-2.md",
+  "sourceDirName": "advanced/flashcards",
+  "slug": "/advanced/flashcards/module-2",
+  "permalink": "/advanced/flashcards/module-2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced Module 2 Flashcards: CAS Disclosure Statement Alignment"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Module 1 Flashcards: Multi-Segment ICS Filings",
+    "permalink": "/advanced/flashcards/module-1"
+  },
+  "next": {
+    "title": "Advanced Module 3 Flashcards: Quick-Close vs. Full ICS",
+    "permalink": "/advanced/flashcards/module-3"
+  }
+}

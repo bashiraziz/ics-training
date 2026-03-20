@@ -1,0 +1,25 @@
+{
+  "id": "intermediate/practice/module-4",
+  "title": "Intermediate Module 4 Practice: Schedules C–H",
+  "description": "Pinnacle Analytics has five cost-type contracts active during the fiscal year. Schedule C shows the following direct labor by contract:",
+  "source": "@site/docs/intermediate/practice/module-4.md",
+  "sourceDirName": "intermediate/practice",
+  "slug": "/intermediate/practice/module-4",
+  "permalink": "/intermediate/practice/module-4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Intermediate Module 4 Practice: Schedules C–H"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intermediate Module 3 Practice: Schedule B",
+    "permalink": "/intermediate/practice/module-3"
+  },
+  "next": {
+    "title": "Intermediate Module 5 Practice: Rate Variances and Adjustments",
+    "permalink": "/intermediate/practice/module-5"
+  }
+}
